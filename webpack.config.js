@@ -23,7 +23,7 @@ const isDev = () => {
 };
 
 const setPublicPath = () => {
-  return isDev() ? '/' : '/bulma-resume-template/';
+  return isDev() ? '/' : './';
 };
 
 const setPath = function(folderName) {
@@ -59,8 +59,8 @@ const plugins = [
       NODE_ENV: '"'+NODE_ENV+'"'
     }
   }),
-  htmlPlugin('/src/index.ejs', 'index.html', 'dracula'),
-  htmlPlugin('/src/light.ejs', 'light.html', 'light'),
+  htmlPlugin('/src/index.ejs', 'dark.html', 'dracula'),
+  htmlPlugin('/src/light.ejs', 'index.html', 'light'),
   new MiniCssExtractPlugin({
     filename: "[name].[hash].css"
   }),

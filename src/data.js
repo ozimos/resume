@@ -1,141 +1,138 @@
 module.exports = {
   profile: {
-    name: 'Irfan Maulana',
-    title: 'Principal Engineer for Frontend at Tokopedia',
-    photo: 'https://avatars2.githubusercontent.com/u/7221389?s=300&v=4', // 300x300px
-    city: 'Jakarta, Indonesia',
-    phone: '(+62) 857-8123-8798',
-    mail: 'mazipanneh@gmail.com'
+    name: "Tovieye Moses Ozi",
+    title: "Software Developer at Andela",
+    photo: "https://avatars2.githubusercontent.com/u/27624208?s=300&v=4", // 300x300px
+    city: "Lagos, Nigeria",
+    phone: "(+234) 8133248846",
+    mail: "tovieye.ozi@gmail.com"
   },
   social: {
     facebook: {
-      name: 'mazipanneh',
-      link: 'https://web.facebook.com/mazipanneh'
+      name: "Tovieye Ozi",
+      link: "https://web.facebook.com/tovieye.ozi"
     },
     twitter: {
-      name: '@maz_ipan',
-      link: 'https://twitter.com/Maz_Ipan'
+      name: "@Tovieye",
+      link: "https://twitter.com/Tovieye"
     },
     linkedin: {
-      name: 'in/mazipan',
-      link: 'https://www.linkedin.com/in/mazipan'
+      name: "/in/tovieye-ozi-7011ab43",
+      link: "https://www.linkedin.com//in/tovieye-ozi-7011ab43"
     },
     github: {
-      name: 'mazipan',
-      link: 'https://github.com/mazipan'
+      name: "ozimos",
+      link: "https://github.com/ozimos"
     }
   },
-  summary: `An experienced software engineer especially in frontend side.<br/>Having deep knowledge in HTML, CSS (with its pre-processor) and JavaScript with the various framework. Write good quality, well tested, and fast delivered code.<br/>Experience in architecting frontend codebase.<br/>A well-known figure in the programming community, open-source creator, and writer for many technical articles.`,
+  summary: `An experienced fullstack web developer.<br/>I am passionate about shipping quality, bug free code on schedule.<br/>I aspire to work on challenging projects where I can learn new skills and continue growing professionally`,
   experiences: [
     {
-      company: 'Tokopedia',
-      location: 'Jakarta',
-      title: 'Principal Engineer for Frontend',
-      period: 'JUN 2019 - PRESENT',
-      jobdesc: [],
+      company: "Andela",
+      location: "Lagos, Nigeria",
+      title: "Software Developer",
+      period: "JUN 2018 - PRESENT",
+      jobdesc: [
+        "Build app for managing learner performance"
+      ]
     },
     {
-      company: 'Bizzy Indonesia',
-      location: 'Jakarta',
-      title: 'Software Architect for Frontend',
-      period: 'FEB 2019 - JUN 2019',
+      company: "Bridge Connector LLC",
+      location: "Tenessee, US",
+      title: "Software Developer",
+      period: "JAN 2019 - JUN 2019",
       jobdesc: [
-        'Split monolith frontend codebase into some different repository',
-        'Introduce many best practices in coding Vue.js and Nuxt.js',
-        'Creating many common utilities for easier sharing code that managed in monorepo using Lerna',
-        'Monitoring web performance',
-        'Actively sharing about how to be effective, good quality, and excellent software development process especially in frontend side.'
-      ],
-    },
-    {
-      company: 'Bizzy Indonesia',
-      location: 'Jakarta',
-      title: 'Software Development Engineer',
-      period: 'JUL 2018 - FEB 2019',
-      jobdesc: [
-        'Helping small team in transaction process to develop new features and fixing bugs',
-        'Setup and spread about unit test adoption in frontend codebase'
-      ],
-    },
-    {
-      company: 'Blibli.com',
-      location: 'Jakarta',
-      title: 'Sr. Software Development Engineer',
-      period: 'JAN 2017 - JUN 2018',
-      jobdesc: [
-        'Helping migrate frontend codebase from JSP + AngularJS into modern codebase using Vue.js',
-        'Helping Blibli Pulsa, Blibli Travels, etc going live to production'
-      ],
-    },
-    {
-      company: 'Blibli.com',
-      location: 'Jakarta',
-      title: 'Software Development Engineer',
-      period: 'OCT 2015 - JAN 2017',
-      jobdesc: [
-        'Maintenance, bug fixing, adding new feature and improvement in our website.',
-        'Doing frontend stuff with AngularJS, jQuery, Vanilla Javascript, JSP, JSTL, SASS, CSS3.',
-        'Doing small stuff in backend using SpringMVC.'
-      ],
-    },
-    {
-      company: 'SML Technologies',
-      location: 'Jakarta',
-      title: 'Java Developer',
-      period: 'AUG 2013 - OCT 2015',
-      jobdesc: [
-        'Develop java desktop application with JIDE and JDAF Framework',
-        'Develop front-end web application with Sencha ExtJs Framework.',
-        'Develop back-end Rest API with EJB and JPA.'
-      ],
+        "Build out a Laravel package to enable data transfer across differnet REST APIs",
+        "Integrate with existing company application for displaying API capabilities"
+      ]
     }
   ],
   educations: [
     {
-      name: 'Muhammadiyah University',
-      city: 'Jakarta',
-      degree: 'Bachelor Degree',
-      period: '2009 - 2013',
-      faculty: 'Bachelor of Informatics Engineering'
+      name: "University of Liverpool",
+      city: "Liverpool, UK",
+      degree: "Masters Degree",
+      period: "2011 - 2012",
+      faculty: "MEng of Mechanical Systems Engineering"
+    },
+    {
+      name: "University of Sunderland",
+      city: "Sunderland, UK",
+      degree: "Bachelors Degree",
+      period: "2006 - 2010",
+      faculty: "Mechanical Engineering"
     }
   ],
   projects: [
     {
-      title: 'Bizzy Front-office and Back-office',
-      company: 'Bizzy Indonesia',
-      period: 'JUL 2018 - JUN 2019'
+      title: 'Book A Meal',
+      company: 'Andela',
+      description: 'SPA to allow caterers to display, and customers to book meals',
+      stacks: 'NodeJS, React, Redux, PostgreSQL',
+      period: 'JUN 2018 - SEP 2018'
     },
     {
-      title: 'Blibli.com Travel, Blibli.com Pulsa, Multi-Merchant Feature',
-      company: 'Blibli.com',
-      period: 'OCT 2015 - JUN 2018'
+      title: 'Reaction Commerce',
+      company: 'Andela',
+      description: 'Customize ecommerce store',
+      stacks: 'Meteor, React, MongoDB',
+      period: 'JUN 2018 - SEP 2018'
     },
     {
-      title: 'Servo Analytica 4, Traversa R3 Routing Management, SIAGA Dashboard, Servo Availability Web, Dashboard Builder',
-      company: 'SML Technologies',
-      period: 'AUG 2013 - OCT 2015'
-    }
+      title: 'Watchtower',
+      company: 'Andela',
+      description: 'Internal tool for managing learner performance',
+      stacks: 'PHP, Laravel, React, Redis, PostgreSQL',
+      period: 'SEP 2018 - DEC 2018'
+    },
+    {
+      title: 'Adapters',
+      company: 'Bridge Connector',
+      description: 'Laravel package to provide API to API integrations',
+      stacks: 'PHP, Laravel, VueJS, MySQL,',
+      period: 'JAN 2019 - JUN 2019'
+    },
   ],
   skills: [
     {
-      name: 'Javascript',
+      name: "Javascript",
       progress: 70
     },
     {
-      name: 'CSS',
+      name: "CSS",
       progress: 70
     },
     {
-      name: 'HTML',
+      name: "HTML",
       progress: 70
     },
     {
-      name: 'FE Development',
+      name: "React",
       progress: 70
-    }
+    },
+    {
+      name: "VueJS",
+      progress: 50
+    },
+    {
+      name: "NodeJS",
+      progress: 70
+    },
+    {
+      name: "Laravel",
+      progress: 70
+    },
+    {
+      name: "Clojure",
+      progress: 40
+    },
+    {
+      name: "SQL Databases",
+      progress: 70
+    },
+    {
+      name: "Mongo DB",
+      progress: 70
+    },
   ],
-  languages: [
-    'Bahasa Indonesia',
-    'English'
-  ]
-}
+};
